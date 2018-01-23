@@ -1,0 +1,80 @@
+body{
+	background-color: #333333;
+}
+#nav li{
+	display: inline-block;
+	margin: 2px 6px 1px;
+}
+
+#nav{
+	text-align: center;
+	margin: 5px;
+}
+
+#nav li a {
+	color: white;
+}
+#h2{
+	text-align: center;
+	color: white;
+	font-size: 25pt;
+}
+
+#div{
+	width: 75%;
+	margin: 50px auto;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+
+}
+
+.divimg{
+	width: 600px;
+	height: 550px;
+	margin: auto;
+	background-size: contain;
+
+}
+#img1{
+	
+	background-image: url(img/workingout.jpg)
+
+}
+#img2{
+	background-image: url(img/wow.jpg)
+}
+#img3{
+	background-image: url(img/comedy.jpg)
+}
+
+
+
+#divtext{
+
+	margin:4px;
+	color: white;
+	text-align: center;
+	font-size: 25pt;
+}
+
+@media all and (max-width: 480px) {
+	.divimg{
+		width: 200px;
+		height: 200px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 767px) {
+	.divimg{
+		width: 350px;
+		height: 350px;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+	.divimg{
+		width: 500px;
+		height: 500px;
+	}
+}
+
+
